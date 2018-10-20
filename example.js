@@ -1,5 +1,6 @@
 export function runManagerAppInContainerWithClientApp(input) {
-    // use nested objects as function parameters - an implementation of destructuring that preserves nested structure of parameters and default values. TODO: Issue - doesn't throw if parameters not passed.
+    // use nested objects as function parameters - an implementation of destructuring that preserves nested structure of parameters and default values.
+    // TODO: Issue - doesn't throw if parameters not passed.
     let application = {}, managerApp = {}, invokedDirectly;
     ({
         application: {
